@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Christmas Gifts For Weird People: The Official 2015 Guide",
+        "category": "E-Commerce",
+        "postDate": "11 Dec 2015",
+        "img": {
+            "src": "../images/article-christmas-gift.jpg",
+            "alt": "A custom pretty christmas wrap job with old newspaper"
+        },
+        "author": {
+            "img": {
+                "src": "../images/author-shaon-hossain-opu.jpg",
+                "alt": "Author Shaon Hossain Opu's portrait"
+            },
+            "name": "Shaon Hossain Opu"
+        },
+        "description": "Looking for quirky gifts to give those oddball friends and family members? Here's the definitive list that helps you match them perfectly, weird for weird!"
+    },
+    {
+        "title": "The Emmaus Journal - 'Strangers In A Strange Land'",
+        "category": "Religion",
+        "postDate": "29 Oct 2004",
+        "img": {
+            "src": "../images/article-alien-in-uniform.jpg",
+            "alt": "Four NSA agents wearing Stasi clothes meeting an alien in Utah Data Center to hand over decryption keys."
+        },
+        "author": {
+            "img": {
+                "src": "../images/author-no-image.svg",
+                "alt": "No author image"
+            },
+            "name": "C.L. Mareydt"
+        },
+        "description": "Do you often feel like an Alien? In fact, have you recently inquired if you were really still on Planet Earth? Do the things of this World just seem more and more foreign to you?"
+    },
+    {
+        "title": "Can Dogs See Dead People?",
+        "category": "Pets",
+        "postDate": "10 Apr 2005",
+        "img": {
+            "src": "../images/article-bernese-mountain-dog.jpg",
+            "alt": "A bernese mountain dog laying on a porch"
+        },
+        "author": {
+            "img": {
+                "src": "../images/author-no-image.svg",
+                "alt": "No author image"
+            },
+            "name": "Bill Knell"
+        },
+        "description": "I see dead people. Uttered by actor Haley Joel Osment in M. Night Shyamalan’s The Sixth Sense, it has become one of the most famous lines in movie history. Although the film was based on a fictional story, we have all seen those people on television who claim they can see or communicate with the dead. Would it surprise you to learn that dogs may also possess that ability?"
+    }
+]

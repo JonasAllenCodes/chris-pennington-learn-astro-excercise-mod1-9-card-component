@@ -1,0 +1,9 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Cards from "../../components/Cards.astro";
+import data from "../../data/aboutPosts.json";
+---
+
+<BaseLayout title="About">
+    <Cards data={data} />
+</BaseLayout>

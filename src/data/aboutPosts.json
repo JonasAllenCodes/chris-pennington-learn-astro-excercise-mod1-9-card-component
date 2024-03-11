@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Craziest Custom Vehicles in the World and the Custom Glass Work Needed For These",
+        "category": "Automobiles",
+        "postDate": "23 Nov 2013",
+        "img": {
+            "src": "../images/article-custom-car.jpg",
+            "alt": "A custom car at a custom car meet"
+        },
+        "author": {
+            "img": {
+                "src": "../images/author-ronald-hall.jpg",
+                "alt": "Author Ronald Hall's portrait"
+            },
+            "name": "Ronald Hall"
+        },
+        "description": "Ever wonder what the craziest custom vehicles in the world are? There are actually quite a number of them that can be found online and most of these, when customized, needed custom glass work done on them. These are often done with the help of an auto glass replacement or repair company."
+    },
+    {
+        "title": "Meditation in Shopping Mall",
+        "category": "Health",
+        "postDate": "10 Jan 2013",
+        "img": {
+            "src": "../images/article-public-meditation.jpg",
+            "alt": "Two people meditating in a public store front"
+        },
+        "author": {
+            "img": {
+                "src": "../images/author-jeofrey-jay-a-pasana.jpg",
+                "alt": "Author Jeofrey Jay A Pasana's portrait"
+            },
+            "name": "Jeofrey Jay A Pasana"
+        },
+        "description": "EIs it weird that I like to meditate in department stores? Is it odd that amidst the starkly lit, nature-free landscape of glass, concrete and consumer"
+    },
+    {
+        "title": "Strange Jobs Still Pay The Bills",
+        "category": "Business",
+        "postDate": "25 Aug 2006",
+        "img": {
+            "src": "../images/article-taxidermy-strange-job.jpg",
+            "alt": "Two taxidermists working in their shop full of dead animals"
+        },
+        "author": {
+            "img": {
+                "src": "../images/author-steven-gillman.jpg",
+                "alt": "Author Steven Gillman's portrait"
+            },
+            "name": "Steven Gillman"
+        },
+        "description": "Do you know what a celluloid trimmer does? Is the job of \"Odor Judger\" as bad as it sounds? Here's a sampling of some of the strange jobs out there."
+    }
+]

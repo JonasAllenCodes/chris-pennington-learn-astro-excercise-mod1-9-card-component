@@ -1,0 +1,96 @@
+---
+ const { data } = Astro.props;
+---
+
+<div class="cards">
+    {data.map(d => ((
+        <article>
+            <img class="article-image" src={d.img.src} alt={d.img.alt} />
+            <div class="article-info">
+                <span class="category">{d.category.toUpperCase()}</span>
+                <h2 class="article-title">{d.title}</h2>
+                <div class="spread-wrap">
+                    <p>{d.description.slice(0, 150)}...</p>
+                    <div class="author">
+                        <img src={d.author.img.src} alt="d.author.img.alt" />
+                        <div class="author-info">
+                            <h3>{d.author.name}</h3>
+                            <time class="post-date">{d.postDate}</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    )))}
+</div>
+
+<style>
+    * {
+        font-family: sans-serif;
+    }
+    .cards {
+        max-width: 1200px;
+        display: flex;
+        gap: 3rem;
+    }
+    article {
+        border-radius: 1rem;
+        background-color: white;
+        overflow: hidden;
+    }
+    article  .article-image {
+        height: 16rem;
+        width: 100%;
+        object-fit: cover;
+    }
+    article .article-info {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    article .article-info .category {
+        background-color:darkcyan;
+        color: white;
+        padding: 0.25rem 0.75rem;
+        border-radius: 1rem;
+        align-self: baseline;
+    }
+    article .article-info .article-title {
+        min-height: 66px;
+        margin-bottom: 0;
+    }
+    article .article-info .spread-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    article .article-info h2 {
+        font-size: 1.20rem;
+    }
+    article .article-info .author {
+        display: flex;
+        gap: 0.75rem;
+    }
+    .article-info .author .author-info {
+        padding: 0.1rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .article-info .author img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+
+        object-fit: cover;
+    }
+    .author .author-info h3 {
+        margin: 0;
+        font-size: 1.1rem;
+    }
+    .author .author-info .post-date {
+        font-size: 0.98rem;
+        color: grey;
+    }
+</style>
